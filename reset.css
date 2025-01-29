@@ -1,0 +1,49 @@
+/* Reset CSS - Baseado no Eric Meyer */
+
+/* Remove margens, paddings e define box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remove decoração de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reseta estilos de tabelas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Remove estilos padrão de botões */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  /* Corrige problemas com fontes em elementos HTML5 */
+  body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Garante que as imagens não ultrapassem o container */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
